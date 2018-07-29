@@ -54,7 +54,7 @@ int main()
 			}
 		}
 	}
-  answer = ( m * n );
+  	answer = ( m * n );
 
 	if ( answer == ( ans1 + cnt ) ) // 익은 토마토와 빈공간이 전체 공간 개수와 같을 때
 	{
