@@ -1,6 +1,7 @@
-def func(n):
-    for i in range(1,n):
-        n *= i
-    return n
 [n , m] = [int(i) for i in input().split()]
-print( func(n) // (func(m) * func(n - m)) )
+ans = 1
+for i in range(1, m + 1, 1):
+    ans *= n
+    ans //= i
+    n -= 1
+print(ans)
