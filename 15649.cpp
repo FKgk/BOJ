@@ -35,4 +35,6 @@ int main(void)
 	scanf("%d %d", &N, &M);
 
 	func(0, N, M);
+	
+	return 0;
 }
